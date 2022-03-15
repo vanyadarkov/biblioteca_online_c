@@ -150,3 +150,6 @@ Cartea <titlu> nu exista în recomandarile tale.
 1. Pentru fiecare comandă terminată în ‘~’ (auto-complete), se parcurge arborele T1 sau T2 (în funcție de comandă) pe calea indicată de prefix. Apoi, din nodul curent, se încearcă găsirea a maxim 3 chei din subarbore.
 1. Pentru fiecare comandă search\_by\_author, se parcurge întâi arborele T2, apoi arborele trie aferent acelui autor.
 1. Comenzile delete\_book șterg informațiile despre carte, cheia dată de titlul cărții din T1 și din arborele aferent autorului din T2. De asemenea, dacă autorul nu mai are nicio altă carte în recomandări, este distrus arborele de căutare aferent cărților sale și ștearsă cheia din T2.
+
+### Copyright 
+Enuntul temei, `check.sh` cat si datele din fisierele de intrare `_test` apartin echipei SD 2020-2021, UPB. Dreptul asupra restul fisierelor si continutul lor (fisierele `.c` si `.h`, `Makefile`) apartin [vanyadarkov](https://github.com/vanyadarkov).
